@@ -102,7 +102,7 @@ def stream_data():
             print(f"Sent: {data['order_id']} | {data['customer_name']} | {data['product_name']}")
 
             # Control the flow rate
-            time.sleep(3)
+            time.sleep(1)
 
     except Exception as e:
         producer.close()
